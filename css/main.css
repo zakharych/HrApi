@@ -643,7 +643,7 @@ body {
 .container {
   margin: 0 auto;
   width: 1160px;
-  padding: 0 15px;
+  padding: 0 20px;
 }
 
 .section {
@@ -1986,6 +1986,10 @@ font-face {
   margin-bottom: 48px;
 }
 
+.before__item:nth-child(3) {
+  margin-right: 0;
+}
+
 .before__item-link {
   display: block;
 }
@@ -2178,6 +2182,7 @@ font-face {
 .place__galery-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   margin-bottom: -22px;
 }
 
