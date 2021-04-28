@@ -1240,7 +1240,7 @@ font-face {
 }
 
 .hero-section {
-  background: url(./../img/hero__bg.png) no-repeat;
+  background: url(https://it-events.com/system/event_photos/imgs/000/013/256/original/hero__bg.png) no-repeat;
   background-size: cover;
   color: white;
   background-color: #202123;
@@ -1351,6 +1351,16 @@ font-face {
   margin-bottom: 10px;
 }
 
+.speaker__slider .slick-slide {
+  width: 20%;
+}
+
+.speaker__slider .slick-slide {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .speaker__slider .slick-prev,
 .speaker__slider .slick-next {
   height: 47px;
@@ -1372,7 +1382,7 @@ font-face {
 
 .speaker__slider .slick-prev::before,
 .speaker__slider .slick-next::before {
-  content: '';
+  content: "";
   display: block;
   background: center/contain url(https://it-events.com/system/ckeditor/pictures/25792/original_left.png);
   height: 100%;
@@ -1447,17 +1457,6 @@ font-face {
   justify-content: start;
   padding: 0px 6%;
   color: #ffffff;
-  outline: none;
-}
-
-.pk .slick-slide {
-  width: 20%;
-}
-
-.pk .slick-slide {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
 }
 
 .pk__item {

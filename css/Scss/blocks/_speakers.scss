@@ -15,6 +15,15 @@
 .speaker__slider {
   margin-bottom: 10px;
 
+  & .slick-slide {
+    width: 20%;
+  }
+  & .slick-slide {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
   .slick-prev,
   .slick-next {
     height: 47px;
@@ -33,9 +42,10 @@
   }
   .slick-prev::before,
   .slick-next::before {
-    content: '';
+    content: "";
     display: block;
-    background: center / contain url(https://it-events.com/system/ckeditor/pictures/25792/original_left.png);
+    background: center / contain
+      url(https://it-events.com/system/ckeditor/pictures/25792/original_left.png);
     height: 100%;
     width: 100%;
   }
@@ -45,6 +55,7 @@
   .slick-disabled {
     cursor: unset;
   }
+
   // .slick-dots li.slick-active button::before,
   // .slick-dots li button::before{
   //     color: #f7e126;
