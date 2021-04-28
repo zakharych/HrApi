@@ -1407,11 +1407,23 @@ font-face {
   justify-content: start;
   padding: 0px 6%;
   color: #ffffff;
+  outline: none;
+}
+
+.pk .slick-slide {
+  width: 20%;
+}
+
+.pk .slick-slide {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .pk__item {
   align-items: center;
   display: flex;
+  min-width: 0;
   flex-direction: column;
   text-align: center;
   font-size: 14px;

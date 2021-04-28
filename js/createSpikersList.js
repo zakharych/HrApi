@@ -6,6 +6,7 @@ console.log(speakersList);
   DB.forEach((element) => {
     createListItem(element);
   });
+  runSpicersSlider();
 })();
 
 function createListItem(element) {
@@ -45,4 +46,15 @@ function createListItem(element) {
   speakersCompany.className = "pk__company";
   speakersCompany.textContent = element.company;
   speakerTitle.append(speakersCompany);
+}
+
+function runSpicersSlider() {
+  $(".speakers__list").slick({
+    infinite: false,
+    speed: 300,
+    slidesToShow: 5,
+    slidesToScroll: 5,
+    rows: 2,
+    dots: false,
+  });
 }

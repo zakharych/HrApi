@@ -1,57 +1,67 @@
 .pk-section__title {
-    color: #ffffff;
+  color: #ffffff;
 }
-// .pc-section {   
-//     background: url(../img/bg_pattern_03.png) repeat; 
+// .pc-section {
+//     background: url(../img/bg_pattern_03.png) repeat;
 //     background-color: $themecolor2;
 // }
 
 .pc-section {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
 .pk {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: start;
-    padding: 0px 6%;    
-    color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  padding: 0px 6%;
+  color: #ffffff;
+  outline: none;
+  & .slick-slide {
+    width: 20%;
+  }
+  & .slick-slide {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
 }
 
 .pk__item {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-size: 14px;
-    font-weight: 400;
-    // color: #ffffff;
-    margin-bottom: 46px;
-    width: 20%;
+  align-items: center;
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  // color: #ffffff;
+  margin-bottom: 46px;
+  width: 20%;
 }
 
 .pk__name {
-    line-height: 1.1;
-    font-size: 16px;
-    font-weight: 700;
+  line-height: 1.1;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .pk__company {
-    font-weight: 700;
-    color: $pkAcent;
+  font-weight: 700;
+  color: $pkAcent;
 }
 
 .pk__img {
-    height: 170px;
-    width: 170px;
-    border: 4px solid $yellow;
-    border-radius: 50%;
-    margin-bottom: 7px;
+  height: 170px;
+  width: 170px;
+  border: 4px solid $yellow;
+  border-radius: 50%;
+  margin-bottom: 7px;
 }
 
 .pk__avatar {
-    display: block;
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-    object-fit: cover;
+  display: block;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
 }
