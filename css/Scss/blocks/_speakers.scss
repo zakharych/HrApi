@@ -4,7 +4,6 @@
 //     background-color: $themecolor2;
 // }
 
-
 // .speakers {
 //     color: #fff;
 //     padding: 0px 10px;
@@ -13,54 +12,59 @@
 //     color: #fff;
 // }
 
-// .speaker__slider {
-//    margin-bottom: 10px;
-// }
-// .slick-prev, .slick-next {
-//     height: 94px;
-//     width: 52px;
-//     transform: translateY(-92px);
-// }
-// .slick-prev {
-//     left: -35px;
-// }
-// .slick-next {
-//     right: -35px;
-// }
-// .slick-prev::before,
-// .slick-next::before
-//  {
-//     content: url(https://it-events.com/system/ckeditor/pictures/25792/original_left.png);
-//     display: block;
-//     width: 100%;
-//     height: 100%;
-// }
-// .slick-next::before {
-    
-//     content: url(https://it-events.com/system/ckeditor/pictures/25791/original_right.png);
-// }
+.speaker__slider {
+  margin-bottom: 10px;
 
-// .slick-dots li.slick-active button::before,
-// .slick-dots li button::before{
-//     color: #f7e126;
-// }
+  .slick-prev,
+  .slick-next {
+    height: 47px;
+    width: 26px;
+    transform: translateY(-47px);
+    -webkit-transform: translateY(-47px);
+    -moz-transform: translateY(-47px);
+    -ms-transform: translateY(-47px);
+    -o-transform: translateY(-47px);
+  }
+  .slick-prev {
+    left: -8px;
+  }
+  .slick-next {
+    right: -8px;
+  }
+  .slick-prev::before,
+  .slick-next::before {
+    content: '';
+    display: block;
+    background: center / contain url(https://it-events.com/system/ckeditor/pictures/25792/original_left.png);
+    height: 100%;
+    width: 100%;
+  }
+  .slick-next::before {
+    background-image: url(https://it-events.com/system/ckeditor/pictures/25791/original_right.png);
+  }
+  .slick-disabled {
+    cursor: unset;
+  }
+  // .slick-dots li.slick-active button::before,
+  // .slick-dots li button::before{
+  //     color: #f7e126;
+  // }
 
-// .speakers__list {
-//     padding: 0px 50px;
-// }
+  // .speakers__list {
+  //     padding: 0px 50px;
+  // }
 
-
-// .speaker {
-//     display: flex;
-//     flex-wrap: wrap;
-// }
+  // .speaker {
+  //     display: flex;
+  //     flex-wrap: wrap;
+}
 
 // .speaker__item {
 //     // margin-bottom: 72px;
 //     // margin-right: 5px;
 //     min-height: 325px;
 //     // padding: 0 5px;
-   
+
 //     &:hover {
 //         .speaker__img {
 //             transform: scale(1.01);
@@ -84,7 +88,7 @@
 //     display: block;
 //     height: 100%;
 //     width: 100%;
-//     border-radius: 50%;    
+//     border-radius: 50%;
 //     object-fit: cover;
 // }
 
@@ -93,8 +97,6 @@
 //     display: flex;
 //     flex-direction: column;
 // }
-
-
 
 // .speaker__title {
 //     text-align: center;

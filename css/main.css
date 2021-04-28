@@ -1347,6 +1347,46 @@ font-face {
   min-height: 92px;
 }
 
+.speaker__slider {
+  margin-bottom: 10px;
+}
+
+.speaker__slider .slick-prev,
+.speaker__slider .slick-next {
+  height: 47px;
+  width: 26px;
+  transform: translateY(-47px);
+  -webkit-transform: translateY(-47px);
+  -moz-transform: translateY(-47px);
+  -ms-transform: translateY(-47px);
+  -o-transform: translateY(-47px);
+}
+
+.speaker__slider .slick-prev {
+  left: -8px;
+}
+
+.speaker__slider .slick-next {
+  right: -8px;
+}
+
+.speaker__slider .slick-prev::before,
+.speaker__slider .slick-next::before {
+  content: '';
+  display: block;
+  background: center/contain url(https://it-events.com/system/ckeditor/pictures/25792/original_left.png);
+  height: 100%;
+  width: 100%;
+}
+
+.speaker__slider .slick-next::before {
+  background-image: url(https://it-events.com/system/ckeditor/pictures/25791/original_right.png);
+}
+
+.speaker__slider .slick-disabled {
+  cursor: unset;
+}
+
 /*    */
 .section-format {
   padding: 55px 0;
