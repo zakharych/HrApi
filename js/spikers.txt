@@ -3,105 +3,120 @@
     "avatar": "https://it-events.com/system/event_photos/imgs/000/013/234/original/content_vozhakina.png",
     "name": "Любовь Вожакина",
     "location": "Болгария. Бургас",
-    "position": "Старший арт-менеджер",
-    "company": "Sperasoft"
+    "position": "Старший арт-менеджер тут будет много текста очень много ы",
+    "company": "Sperasoft",
+    "url": ""
   },
   {
     "avatar": "https://it-events.com/system/event_photos/imgs/000/013/234/original/content_vozhakina.png",
     "name": "Любовь Вожакина",
     "location": "Болгария. Бургас",
     "position": "Старший арт-менеджер",
-    "company": "Sperasoft"
+    "company": "Sperasoft",
+    "url": "google.com"
   },
   {
     "avatar": "https://it-events.com/system/event_photos/imgs/000/013/234/original/content_vozhakina.png",
     "name": "Любовь Вожакина",
     "location": "Болгария. Бургас",
     "position": "Старший арт-менеджер",
-    "company": "Sperasoft"
+    "company": "Sperasoft",
+    "url": "google.com"
+  },
+  {
+    "avatar": "https://it-events.com/system/event_photos/imgs/000/013/234/original/content_vozhakina.png",
+    "name": "Любовь Вожакина",
+    "location": "Болгария. Бургас",
+    "position": "Старший арт-менеджер и тут будет много текста тоже очень много ",
+    "company": "Sperasoft",
+    "url": "google.com"
   },
   {
     "avatar": "https://it-events.com/system/event_photos/imgs/000/013/234/original/content_vozhakina.png",
     "name": "Любовь Вожакина",
     "location": "Болгария. Бургас",
     "position": "Старший арт-менеджер",
-    "company": "Sperasoft"
+    "company": "Sperasoft",
+    "url": "google.com"
   },
   {
     "avatar": "https://it-events.com/system/event_photos/imgs/000/013/234/original/content_vozhakina.png",
     "name": "Любовь Вожакина",
     "location": "Болгария. Бургас",
     "position": "Старший арт-менеджер",
-    "company": "Sperasoft"
+    "company": "Sperasoft",
+    "url": "google.com"
   },
   {
     "avatar": "https://it-events.com/system/event_photos/imgs/000/013/234/original/content_vozhakina.png",
     "name": "Любовь Вожакина",
     "location": "Болгария. Бургас",
     "position": "Старший арт-менеджер",
-    "company": "Sperasoft"
+    "company": "Sperasoft",
+    "url": "google.com"
   },
   {
     "avatar": "https://it-events.com/system/event_photos/imgs/000/013/234/original/content_vozhakina.png",
     "name": "Любовь Вожакина",
     "location": "Болгария. Бургас",
     "position": "Старший арт-менеджер",
-    "company": "Sperasoft"
+    "company": "Sperasoft",
+    "url": "google.com"
   },
   {
     "avatar": "https://it-events.com/system/event_photos/imgs/000/013/234/original/content_vozhakina.png",
     "name": "Любовь Вожакина",
     "location": "Болгария. Бургас",
     "position": "Старший арт-менеджер",
-    "company": "Sperasoft"
+    "company": "Sperasoft",
+    "url": "google.com"
   },
   {
     "avatar": "https://it-events.com/system/event_photos/imgs/000/013/234/original/content_vozhakina.png",
     "name": "Любовь Вожакина",
     "location": "Болгария. Бургас",
     "position": "Старший арт-менеджер",
-    "company": "Sperasoft"
+    "company": "Sperasoft",
+    "url": "google.com"
   },
   {
     "avatar": "https://it-events.com/system/event_photos/imgs/000/013/234/original/content_vozhakina.png",
     "name": "Любовь Вожакина",
     "location": "Болгария. Бургас",
     "position": "Старший арт-менеджер",
-    "company": "Sperasoft"
+    "company": "Sperasoft",
+    "url": "google.com"
   },
   {
     "avatar": "https://it-events.com/system/event_photos/imgs/000/013/234/original/content_vozhakina.png",
     "name": "Любовь Вожакина",
     "location": "Болгария. Бургас",
     "position": "Старший арт-менеджер",
-    "company": "Sperasoft"
+    "company": "Sperasoft",
+    "url": "google.com"
   },
   {
     "avatar": "https://it-events.com/system/event_photos/imgs/000/013/234/original/content_vozhakina.png",
     "name": "Любовь Вожакина",
     "location": "Болгария. Бургас",
     "position": "Старший арт-менеджер",
-    "company": "Sperasoft"
+    "company": "Sperasoft",
+    "url": "google.com"
   },
   {
     "avatar": "https://it-events.com/system/event_photos/imgs/000/013/234/original/content_vozhakina.png",
     "name": "Любовь Вожакина",
     "location": "Болгария. Бургас",
     "position": "Старший арт-менеджер",
-    "company": "Sperasoft"
+    "company": "Sperasoft",
+    "url": "google.com"
   },
   {
     "avatar": "https://it-events.com/system/event_photos/imgs/000/013/234/original/content_vozhakina.png",
     "name": "Любовь Вожакина",
     "location": "Болгария. Бургас",
     "position": "Старший арт-менеджер",
-    "company": "Sperasoft"
-  },
-  {
-    "avatar": "https://it-events.com/system/event_photos/imgs/000/013/234/original/content_vozhakina.png",
-    "name": "Любовь Вожакина",
-    "location": "Болгария. Бургас",
-    "position": "Старший арт-менеджер",
-    "company": "Sperasoft"
+    "company": "Sperasoft",
+    "url": "google.com"
   }
 ]

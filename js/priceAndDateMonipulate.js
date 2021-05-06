@@ -10,10 +10,14 @@ const tableString = document.querySelectorAll(".price__table-row");
 
 for (let i = 0; i < dateElem.length; i++) {
   const metaData = dateElem[i].getAttribute("meta-date");
+  let metaDataprev = 0;
+  if (i >= 1) {
+    metaDataprev = Date.parse(`${dateElem[i - 1].getAttribute("meta-date")}`);
+  }
   const metaDataString = Date.parse(`${metaData}`);
   const metaMounth = new Date(metaDataString).getMonth();
 
-  if (metaDataString > Date.now() && curentMount === metaMounth) {
+  if (metaDataString > Date.now() && metaDataprev < Date.now()) {
     dateElem[i].classList.add("date__post--active");
     dateElem[i].nextElementSibling.classList.add("dot__active");
     for (let j = 0; j < tableString.length; j++) {
