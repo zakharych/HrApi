@@ -1,5 +1,4 @@
 const speakersList = document.querySelector(".speakers__list");
-console.log(speakersList);
 (async () => {
   let DB = await (await fetch("./js/spikers.txt")).json();
 
@@ -14,9 +13,15 @@ function createListItem(element) {
   speakerItem.className = "pk__item";
   speakersList.append(speakerItem);
 
+  const speakerLink = document.createElement("a");
+  speakerLink.className = "pk__link";
+  speakerLink.href = element.url;
+  speakerLink.target = "_blank";
+  speakerItem.append(speakerLink);
+
   const speakerPic = document.createElement("div");
   speakerPic.className = "pk__img";
-  speakerItem.append(speakerPic);
+  speakerLink.append(speakerPic);
 
   const speakerImg = document.createElement("img");
   speakerImg.className = "pk__avatar";
@@ -25,11 +30,12 @@ function createListItem(element) {
 
   const speakerTitle = document.createElement("div");
   speakerTitle.className = "pk__title";
-  speakerItem.append(speakerTitle);
+  speakerLink.append(speakerTitle);
 
   const speakersName = document.createElement("p");
   speakersName.className = "pk__name";
-  speakersName.textContent = element.name;
+  const speakerNameStr = element.name.split(" ").join("\n");
+  speakersName.textContent = speakerNameStr;
   speakerTitle.append(speakersName);
 
   const speakersSity = document.createElement("p");
@@ -48,6 +54,24 @@ function createListItem(element) {
   speakerTitle.append(speakersCompany);
 }
 
+function resizeSlideHeight() {
+  const slider = document.querySelector(".speakers__list");
+  slides = slider.querySelectorAll(".slick-slide");
+  let maxHeight = 0;
+  slides.forEach((element) => {
+    const firstSlideOffset = element.querySelector(".pk__item").offsetHeight;
+    if (firstSlideOffset > maxHeight) {
+      maxHeight = firstSlideOffset;
+    }
+  });
+  slides.forEach((element) => {
+    element.querySelector(".pk__item").style.minHeight = `${maxHeight}px`;
+    if (element.lastChild.querySelector(".pk__link")) {
+      element.lastChild.querySelector(".pk__link").style.marginBottom = 0;
+    }
+  });
+}
+
 function runSpicersSlider() {
   $(".speakers__list").slick({
     infinite: false,
@@ -57,4 +81,5 @@ function runSpicersSlider() {
     rows: 2,
     dots: false,
   });
+  resizeSlideHeight();
 }

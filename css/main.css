@@ -1340,6 +1340,10 @@ font-face {
   background-color: #104591;
 }
 
+.section-report .speaker__slider {
+  margin-bottom: 50px;
+}
+
 .report {
   display: flex;
   align-items: center;
@@ -1457,6 +1461,27 @@ font-face {
   justify-content: start;
   padding: 0px 6%;
   color: #ffffff;
+  outline: none;
+}
+
+.pk .slick-slide {
+  width: 20%;
+}
+
+.pk .slick-slide {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  outline: none;
+  height: 100%;
+}
+
+.pk .slick-track {
+  height: 100%;
+}
+
+.pk .pk__name {
+  white-space: pre-wrap;
 }
 
 .pk__item {
@@ -1467,8 +1492,32 @@ font-face {
   text-align: center;
   font-size: 14px;
   font-weight: 400;
-  margin-bottom: 46px;
   width: 20%;
+  padding: 5px;
+}
+
+.pk__item:hover .pk__img {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.pk__link {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 46px;
+}
+
+.pk__link:active,
+.pk__link :focus {
+  outline: none;
+}
+
+.pk__title {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .pk__name {

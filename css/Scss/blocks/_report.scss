@@ -1,6 +1,9 @@
 .section-report {
   margin: 0;
   background-color: #104591;
+  & .speaker__slider {
+    margin-bottom: 50px;
+  }
 }
 
 .report {
