@@ -55,7 +55,7 @@
   .slick-disabled {
     cursor: unset;
   }
-
+  
   // .slick-dots li.slick-active button::before,
   // .slick-dots li button::before{
   //     color: #f7e126;
@@ -68,6 +68,11 @@
   // .speaker {
   //     display: flex;
   //     flex-wrap: wrap;
+}
+.speakers__list {
+  & .pk__name {
+    white-space: pre-wrap;
+  }
 }
 
 // .speaker__item {

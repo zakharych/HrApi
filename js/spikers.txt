@@ -1,122 +1,203 @@
 [
   {
-    "avatar": "https://it-events.com/system/event_photos/imgs/000/013/234/original/content_vozhakina.png",
-    "name": "Любовь Вожакина",
-    "location": "Болгария. Бургас",
-    "position": "Старший арт-менеджер тут будет много текста очень много ы",
-    "company": "Sperasoft",
-    "url": ""
+    "avatar": "https://hrapiconf.com/system/event_photos/imgs/000/013/351/original/YAna_Tabakova.jpg",
+    "name": "Яна Табакова",
+    "location": "Россия. Санкт-Петербург",
+    "position": "Head of HR Brand",
+    "company": "Semrush",
+    "url": "https://hrapiconf.com/materials/2951"
   },
   {
-    "avatar": "https://it-events.com/system/event_photos/imgs/000/013/234/original/content_vozhakina.png",
-    "name": "Любовь Вожакина",
-    "location": "Болгария. Бургас",
-    "position": "Старший арт-менеджер",
-    "company": "Sperasoft",
-    "url": "google.com"
+    "avatar": "https://it-events.com/system/event_photos/imgs/000/013/369/original/Yuliya_Tezikova.jpg",
+    "name": "Юлия Тезикова",
+    "location": "Россия. Санкт-Петербург",
+    "position": "HRBP",
+    "company": "Купибилет",
+    "url": "https://hrapiconf.com/materials/2950"
   },
   {
-    "avatar": "https://it-events.com/system/event_photos/imgs/000/013/234/original/content_vozhakina.png",
-    "name": "Любовь Вожакина",
-    "location": "Болгария. Бургас",
-    "position": "Старший арт-менеджер",
-    "company": "Sperasoft",
-    "url": "google.com"
+    "avatar": "https://hrapiconf.com/system/event_photos/imgs/000/013/358/original/Olga_Ignatyeva.jpg",
+    "name": "Ольга Игнатьева",
+    "location": "Испания. Бенитачель",
+    "position": "Head of Global Recruitment",
+    "company": "Semrush",
+    "url": "https://hrapiconf.com/materials/2936"
   },
   {
-    "avatar": "https://it-events.com/system/event_photos/imgs/000/013/234/original/content_vozhakina.png",
-    "name": "Любовь Вожакина",
-    "location": "Болгария. Бургас",
-    "position": "Старший арт-менеджер и тут будет много текста тоже очень много ",
-    "company": "Sperasoft",
-    "url": "google.com"
+    "avatar": "https://hrapiconf.com/system/event_photos/imgs/000/013/354/original/Dmitro.jpg",
+    "name": "Дмитрий Ледяев",
+    "location": "Беларусь. Минск",
+    "position": "HR / PR Lead",
+    "company": "SaM Solutions",
+    "url": "https://hrapiconf.com/materials/2952"
   },
   {
-    "avatar": "https://it-events.com/system/event_photos/imgs/000/013/234/original/content_vozhakina.png",
-    "name": "Любовь Вожакина",
-    "location": "Болгария. Бургас",
-    "position": "Старший арт-менеджер",
-    "company": "Sperasoft",
-    "url": "google.com"
+    "avatar": "https://hrapiconf.com/system/event_photos/imgs/000/013/355/original/Olhovik.jpg",
+    "name": "Влад Ольховик",
+    "location": "Беларусь. Минск",
+    "position": "BA / PM",
+    "company": "SaM Solutions",
+    "url": "https://hrapiconf.com/materials/2952"
   },
   {
-    "avatar": "https://it-events.com/system/event_photos/imgs/000/013/234/original/content_vozhakina.png",
-    "name": "Любовь Вожакина",
-    "location": "Болгария. Бургас",
-    "position": "Старший арт-менеджер",
-    "company": "Sperasoft",
-    "url": "google.com"
+    "avatar": "https://hrapiconf.com/system/event_photos/imgs/000/013/353/original/Vasilisa_Buhteeva.jpg",
+    "name": "Василиса Бухтеева",
+    "location": "Россия. Санкт-Петербург",
+    "position": "HR менеджер",
+    "company": "НаПоправку",
+    "url": "https://hrapiconf.com/materials/2937"
   },
   {
-    "avatar": "https://it-events.com/system/event_photos/imgs/000/013/234/original/content_vozhakina.png",
-    "name": "Любовь Вожакина",
-    "location": "Болгария. Бургас",
-    "position": "Старший арт-менеджер",
-    "company": "Sperasoft",
-    "url": "google.com"
+    "avatar": "https://hrapiconf.com/system/event_photos/imgs/000/013/362/original/Daria_Mamlygina.jpg",
+    "name": "Дарья Мамлыгина",
+    "location": "Россия. Москва",
+    "position": "IT HR",
+    "company": "Dodo Engineering",
+    "url": "https://hrapiconf.com/materials/2940"
   },
   {
-    "avatar": "https://it-events.com/system/event_photos/imgs/000/013/234/original/content_vozhakina.png",
-    "name": "Любовь Вожакина",
-    "location": "Болгария. Бургас",
-    "position": "Старший арт-менеджер",
-    "company": "Sperasoft",
-    "url": "google.com"
+    "avatar": "https://hrapiconf.com/system/event_photos/imgs/000/013/363/original/Yuriiy_Ivanov.jpg",
+    "name": "Юрий Иванов",
+    "location": "Россия. Ульяновск",
+    "position": "Руководитель группы подбора и адаптации",
+    "company": "СимбирСофт",
+    "url": "https://hrapiconf.com/materials/2945"
   },
   {
-    "avatar": "https://it-events.com/system/event_photos/imgs/000/013/234/original/content_vozhakina.png",
-    "name": "Любовь Вожакина",
-    "location": "Болгария. Бургас",
-    "position": "Старший арт-менеджер",
-    "company": "Sperasoft",
-    "url": "google.com"
+    "avatar": "https://hrapiconf.com/system/event_photos/imgs/000/013/359/original/Anastasiya_Voronova.jpeg",
+    "name": "Анастасия Воронова",
+    "location": "Россия. Санкт-Петербург",
+    "position": "HR manager",
+    "company": "Dataduck",
+    "url": "https://hrapiconf.com/materials/2941"
   },
   {
-    "avatar": "https://it-events.com/system/event_photos/imgs/000/013/234/original/content_vozhakina.png",
-    "name": "Любовь Вожакина",
-    "location": "Болгария. Бургас",
-    "position": "Старший арт-менеджер",
-    "company": "Sperasoft",
-    "url": "google.com"
+    "avatar": "https://hrapiconf.com/system/event_photos/imgs/000/013/349/original/Mariya_Zalozhnyh.jpg",
+    "name": "Мария Заложных",
+    "location": "Россия. Екатеринбург",
+    "position": "Руководитель направления обучения и развития персонала",
+    "company": "Контур",
+    "url": "https://hrapiconf.com/materials/2939"
   },
   {
-    "avatar": "https://it-events.com/system/event_photos/imgs/000/013/234/original/content_vozhakina.png",
-    "name": "Любовь Вожакина",
-    "location": "Болгария. Бургас",
-    "position": "Старший арт-менеджер",
-    "company": "Sperasoft",
-    "url": "google.com"
+    "avatar": "https://hrapiconf.com/system/event_photos/imgs/000/013/357/original/Olga_Bagurina.jpg",
+    "name": "Ольга Багурина",
+    "location": "Россия. Санкт-Петербург",
+    "position": "Employer Brand Manager",
+    "company": "Selectel",
+    "url": "https://hrapiconf.com/materials/2943"
   },
   {
-    "avatar": "https://it-events.com/system/event_photos/imgs/000/013/234/original/content_vozhakina.png",
-    "name": "Любовь Вожакина",
-    "location": "Болгария. Бургас",
-    "position": "Старший арт-менеджер",
-    "company": "Sperasoft",
-    "url": "google.com"
+    "avatar": "https://hrapiconf.com/system/event_photos/imgs/000/013/361/original/Andreiy_Makarov.jpg",
+    "name": "Андрей Макаров",
+    "location": "Россия. Казань",
+    "position": "Совладелец и директор по счастью",
+    "company": "Neti",
+    "url": "https://hrapiconf.com/materials/2942"
+  },
+
+  {
+    "avatar": "https://it-events.com/system/event_photos/imgs/000/013/370/original/Vera_Manevich.jpg",
+    "name": "Вера Маневич",
+    "location": "Россия. Новосибирск",
+    "position": "HRD",
+    "company": "Зарплата.ру",
+    "url": "https://hrapiconf.com/materials/2948"
   },
   {
-    "avatar": "https://it-events.com/system/event_photos/imgs/000/013/234/original/content_vozhakina.png",
-    "name": "Любовь Вожакина",
-    "location": "Болгария. Бургас",
-    "position": "Старший арт-менеджер",
-    "company": "Sperasoft",
-    "url": "google.com"
+    "avatar": "https://hrapiconf.com/system/event_photos/imgs/000/013/360/original/Yuliya_Yastrebova.jpg",
+    "name": "Юлия Ястребова",
+    "location": "Россия. Санкт-Петербург",
+    "position": "Руководитель корпоративных коммуникаций",
+    "company": "Deutsche Telekom IT Solutions",
+    "url": "https://hrapiconf.com/materials/2944"
   },
   {
-    "avatar": "https://it-events.com/system/event_photos/imgs/000/013/234/original/content_vozhakina.png",
-    "name": "Любовь Вожакина",
-    "location": "Болгария. Бургас",
-    "position": "Старший арт-менеджер",
-    "company": "Sperasoft",
-    "url": "google.com"
+    "avatar": "https://hrapiconf.com/system/event_photos/imgs/000/013/350/original/Katya_SHlyapina.jpg",
+    "name": "Екатерина Шляпина",
+    "location": "Россия. Пермь",
+    "position": "HR Директор",
+    "company": "ENAZA",
+    "url": "https://hrapiconf.com/materials/2938"
   },
   {
-    "avatar": "https://it-events.com/system/event_photos/imgs/000/013/234/original/content_vozhakina.png",
-    "name": "Любовь Вожакина",
-    "location": "Болгария. Бургас",
-    "position": "Старший арт-менеджер",
-    "company": "Sperasoft",
-    "url": "google.com"
+    "avatar": "https://it-events.com/system/event_photos/imgs/000/013/372/original/Tanya_Ipatova.png",
+    "name": "Таня Ипатова",
+    "location": "Россия. Москва",
+    "position": "Менеджер по внутренним коммуникациям",
+    "company": "Tutu.ru",
+    "url": "https://hrapiconf.com/materials/2946"
+  },
+  {
+    "avatar": "https://it-events.com/system/event_photos/imgs/000/013/371/original/Mikhail_Koltsov.jpeg",
+    "name": "Михаил Кольцов",
+    "location": "Польша. Варшава",
+    "position": "Software Engineer",
+    "company": "Google",
+    "url": "https://hrapiconf.com/materials/2949"
+  },
+  {
+    "avatar": "https://it-events.com/system/event_photos/imgs/000/013/373/original/Aleksey_Kuksenok.jpg",
+    "name": "Алексей Куксенок",
+    "location": "Россия. Воронеж",
+    "position": "Консультант по организационному развитию",
+    "company": "softpower.pro",
+    "url": "https://hrapiconf.com/materials/2947"
+  },
+  {
+    "avatar": "https://it-events.com/system/event_photos/imgs/000/013/356/original/no-profile-image.gif",
+    "name": "Светлана Болсуновская",
+    "location": "Россия. Санкт-Петербург",
+    "position": "Agile coach",
+    "company": "DT IT Solutions",
+    "url": "https://hrapiconf.com/materials/"
+  },
+  {
+    "avatar": "https://it-events.com/system/event_photos/imgs/000/013/356/original/no-profile-image.gif",
+    "name": "Андрей Антошин",
+    "location": "Россия. Пермь",
+    "position": "Руководитель отдела подбора и адаптации",
+    "company": "Parma TG",
+    "url": "https://hrapiconf.com/materials/"
+  },
+  {
+    "avatar": "https://it-events.com/system/event_photos/imgs/000/013/356/original/no-profile-image.gif",
+    "name": "Андрей Антошин",
+    "location": "Россия. Пермь",
+    "position": "Руководитель отдела подбора и адаптации",
+    "company": "Parma TG",
+    "url": "https://hrapiconf.com/materials/"
+  },
+  {
+    "avatar": "https://it-events.com/system/event_photos/imgs/000/013/356/original/no-profile-image.gif",
+    "name": "Андрей Антошин",
+    "location": "Россия. Пермь",
+    "position": "Руководитель отдела подбора и адаптации",
+    "company": "Parma TG",
+    "url": "https://hrapiconf.com/materials/"
+  },
+  {
+    "avatar": "https://it-events.com/system/event_photos/imgs/000/013/356/original/no-profile-image.gif",
+    "name": "Андрей Антошин",
+    "location": "Россия. Пермь",
+    "position": "Руководитель отдела подбора и адаптации",
+    "company": "Parma TG",
+    "url": "https://hrapiconf.com/materials/"
+  },
+  {
+    "avatar": "https://it-events.com/system/event_photos/imgs/000/013/356/original/no-profile-image.gif",
+    "name": "Андрей Антошин",
+    "location": "Россия. Пермь",
+    "position": "Руководитель отдела подбора и адаптации",
+    "company": "Parma TG",
+    "url": "https://hrapiconf.com/materials/"
+  },
+  {
+    "avatar": "https://it-events.com/system/event_photos/imgs/000/013/356/original/no-profile-image.gif",
+    "name": "Андрей Антошин",
+    "location": "Россия. Пермь",
+    "position": "Руководитель отдела подбора и адаптации",
+    "company": "Parma TG",
+    "url": "https://hrapiconf.com/materials/"
   }
 ]
