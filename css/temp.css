@@ -495,11 +495,11 @@ template {
 }
 
 .slick-prev:before {
-  content: "â†";
+  content: "←";
 }
 
 [dir="rtl"] .slick-prev:before {
-  content: "â†’";
+  content: "→";
 }
 
 .slick-next {
@@ -512,11 +512,11 @@ template {
 }
 
 .slick-next:before {
-  content: "â†’";
+  content: "→";
 }
 
 [dir="rtl"] .slick-next:before {
-  content: "â†";
+  content: "←";
 }
 
 /* Dots */
@@ -571,7 +571,7 @@ template {
   position: absolute;
   top: 0;
   left: 0;
-  content: "â€¢";
+  content: "•";
   width: 20px;
   height: 20px;
   font-family: "slick";
@@ -1241,7 +1241,7 @@ font-face {
 }
 
 .hero-section {
-  background: url(./../img/hero__bg.png) no-repeat;
+  background: url(https://it-events.com/system/event_photos/imgs/000/013/256/original/hero__bg.png) no-repeat;
   background-size: cover;
   color: white;
   background-color: #202123;
@@ -1356,6 +1356,16 @@ font-face {
   margin-bottom: 10px;
 }
 
+.speaker__slider .slick-slide {
+  width: 20%;
+}
+
+.speaker__slider .slick-slide {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .speaker__slider .slick-prev,
 .speaker__slider .slick-next {
   height: 47px;
@@ -1377,7 +1387,7 @@ font-face {
 
 .speaker__slider .slick-prev::before,
 .speaker__slider .slick-next::before {
-  content: '';
+  content: "";
   display: block;
   background: center/contain url(https://it-events.com/system/ckeditor/pictures/25792/original_left.png);
   height: 100%;
@@ -1390,6 +1400,10 @@ font-face {
 
 .speaker__slider .slick-disabled {
   cursor: unset;
+}
+
+.speakers__list .pk__name {
+  white-space: pre-wrap;
 }
 
 /*    */
@@ -1469,10 +1483,6 @@ font-face {
 
 .pk .slick-track {
   height: 100%;
-}
-
-.pk .pk__name {
-  white-space: pre-wrap;
 }
 
 .pk__item {

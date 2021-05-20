@@ -2470,6 +2470,11 @@ font-face {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  margin-right: 30px;
+}
+
+.table__speaker:last-child {
+  margin: 0;
 }
 
 .table__break {

@@ -8,111 +8,399 @@
           "tableLideSchedule": [
             {
               "time": "9.00 - 10.00",
-              "theme": "Чем живет HR Мир?",
-              "themeLink": "#",
-              "speaker": {
-                "name": "Юлия Тезикова",
-                "location": "Россия. Санкт-Петербург",
-                "position": "HRBP",
-                "company": "Купибилет"
-              },
-              "noSpeakerLine": ""
-            },{
-              "time": "12.00 - 13.00",
               "theme": "",
               "themeLink": "",
-              "speaker": {
+              "speaker": [{
                 "name": "",
                 "location": "",
                 "position": "",
                 "company": ""
-              },
+              }],
+              "noSpeakerLine": "Регистрация. Утренний кофе-брейк"
+            },
+            {
+              "time": "10.00 - 10.25",
+              "theme": "ОТКРЫТИЕ",
+              "themeLink": "",
+              "speaker": [{
+                "name": "",
+                "location": "",
+                "position": "",
+                "company": ""
+              }],
+              "noSpeakerLine": ""
+            },
+            {
+              "time": "10.30 - 11.30",
+              "theme": "Офбординг как часть культуры",
+              "themeLink": "https://hrapiconf.com/materials/2948",
+              "speaker": [{
+                "name": "Вера Маневич",
+                "location": "Россия. Новосибирск",
+                "position": "HRD",
+                "company": "зарплата.ру"
+              }],
+              "noSpeakerLine": ""
+            },
+            {
+              "time": "11.40 - 12.10",
+              "theme": "Как совместная работа с бизнесом помогает эффективно развивать менеджеров разработки",
+              "themeLink": "https://hrapiconf.com/materials/2939",
+              "speaker": [{
+                "name": "Мария Заложных",
+                "location": "Россия. Екатеринбург",
+                "position": "Руководитель направления обучения и развития персонала",
+                "company": "Контур"
+              }],
+              "noSpeakerLine": ""
+            },
+            {
+              "time": "12.20 - 13.10",
+              "theme": "Адаптация экспатов в Google Warsaw: взгляд со стороны разработчика",
+              "themeLink": "https://hrapiconf.com/materials/2949",
+              "speaker": [{
+                "name": "Михаил Кольцов",
+                "location": "Польша. Варшава",
+                "position": "Software engineer",
+                "company": "Google"
+              }],
+              "noSpeakerLine": ""
+            },
+            {
+              "time": "13.10 - 14.10",
+              "theme": "",
+              "themeLink": "",
+              "speaker": [{
+                "name": "",
+                "location": "",
+                "position": "",
+                "company": ""
+              }],
               "noSpeakerLine": "ОБЕД"
+            },
+            {
+              "time": "14.10 - 14.50",
+              "theme": "Аудит внутренних коммуникаций. Руководство к действию",
+              "themeLink": "https://hrapiconf.com/materials/2946",
+              "speaker": [{
+                "name": "Таня Ипатова",
+                "location": "",
+                "position": "Менеджер по внутренним коммуникациям",
+                "company": "Tutu.ru"
+              }],
+              "noSpeakerLine": ""
+            },
+            {
+              "time": "15.00 - 15.40",
+              "theme": "3 лайфхака для развития менеджеров в IT… и не только!",
+              "themeLink": "#",
+              "speaker": [{
+                "name": "Яна Даймонд",
+                "location": "Россия. Санкт-Петербург",
+                "position": "People partner",
+                "company": "QuadCode"
+              }],
+              "noSpeakerLine": ""
+            },
+            {
+              "time": "15.50 - 16.20",
+              "theme": "",
+              "themeLink": "",
+              "speaker": [{
+                "name": "",
+                "location": "",
+                "position": "",
+                "company": ""
+              }],
+              "noSpeakerLine": "КОФЕ-БРЕЙК"
+            },
+            {
+              "time": "16.20 - 17.00",
+              "theme": "ЗП-система за 3 месяца без C&B: успехи и фэйлы",
+              "themeLink": "https://hrapiconf.com/materials/2940",
+              "speaker": [{
+                "name": "Дарья Мамлыгина",
+                "location": "Россия. Москва",
+                "position": "IT HR",
+                "company": "Dodo Brands"
+              }],
+              "noSpeakerLine": ""
+            },
+            {
+              "time": "17.00 - 18.00",
+              "theme": "",
+              "themeLink": "",
+              "speaker": [{
+                "name": "",
+                "location": "",
+                "position": "",
+                "company": ""
+              }],
+              "noSpeakerLine": "ФУРШЕТ"
             }
           ]
-        },{
+        },
+        {
           "tableLIneHeader": "Поток 2",
           "tableLideSchedule": [
             {
               "time": "9.00 - 10.00",
-              "theme": "Чем живет HR Мир?",
-              "themeLink": "#",
-              "speaker": {
-                "name": "Юлия Тезикова",
-                "location": "Россия. Санкт-Петербург",
-                "position": "HRBP",
-                "company": "Купибилет"
-              },
-              "noSpeakerLine": ""
-            },{
-              "time": "12.00 - 13.00",
               "theme": "",
               "themeLink": "",
-              "speaker": {
+              "speaker": [{
                 "name": "",
                 "location": "",
                 "position": "",
                 "company": ""
-              },
+              }],
+              "noSpeakerLine": "Регистрация. Утренний кофе-брейк"
+            },
+            {
+              "time": "10.00 - 10.25",
+              "theme": "ОТКРЫТИЕ",
+              "themeLink": "",
+              "speaker": [{
+                "name": "",
+                "location": "",
+                "position": "",
+                "company": ""
+              }],
+              "noSpeakerLine": ""
+            },
+            {
+              "time": "10.30 - 11.10",
+              "theme": "Метрики рекрутмента 80 lvl",
+              "themeLink": "https://hrapiconf.com/materials/2936",
+              "speaker": [{
+                "name": "Ольга Игнатьева",
+                "location": "Spain. Benitachell",
+                "position": "Head of Global Recruitment",
+                "company": "Semrush"
+              }],
+              "noSpeakerLine": ""
+            },
+            {
+              "time": "11.20 - 12.00",
+              "theme": "Автоматизация HR-процессов или как HR-у совмещать в себе роль PM-а",
+              "themeLink": "https://hrapiconf.com/materials/2945",
+              "speaker": [{
+                "name": "Юрий Иванов",
+                "location": "Россия. Ульяновск",
+                "position": "Руководитель группы подбора и адаптации",
+                "company": "СимбирСофт"
+              }],
+              "noSpeakerLine": ""
+            },
+            {
+              "time": "12.00 - 12.30",
+              "theme": "",
+              "themeLink": "",
+              "speaker": [{
+                "name": "",
+                "location": "",
+                "position": "",
+                "company": ""
+              }],
+              "noSpeakerLine": "КОФЕ-БРЕЙК"
+            },
+            {
+              "time": "12.30 - 13.00",
+              "theme": "Шишки и кокосы. Рефакторинг нанимающего менеджера",
+              "themeLink": "https://hrapiconf.com/materials/2955",
+              "speaker": [{
+                "name": "Анастасия Пономарёва",
+                "location": "Россия. Москва",
+                "position": "Руководитель направления подбора персонала",
+                "company": "АО РТЛабс"
+              }],
+              "noSpeakerLine": ""
+            },
+            {
+              "time": "13.10 - 14.10",
+              "theme": "CJM: Чтобы найти хорошего кандидата, нужно думать как хороший кандидат",
+              "themeLink": "https://hrapiconf.com/materials/2951",
+              "speaker": [{
+                "name": "Яна Табакова / Ольга Игнатьева",
+                "location": "Россия. Санкт-Петербург / Spain. Benitachell",
+                "position": "Head of HR Brand / Head of Global Recruitment",
+                "company": "Semrush"
+              }],
+              "noSpeakerLine": ""
+            },
+            {
+              "time": "14.10 - 15.10",
+              "theme": "",
+              "themeLink": "",
+              "speaker": [{
+                "name": "",
+                "location": "",
+                "position": "",
+                "company": ""
+              }],
               "noSpeakerLine": "ОБЕД"
+            },
+            {
+              "time": "15.10 - 16.10",
+              "theme": "Туда и обратно: почему разработчики возвращаются в Россию",
+              "themeLink": "#",
+              "speaker": [{
+                "name": "Никита Курский",
+                "location": "Россия. Санкт-Петербург",
+                "position": "Founder and CEO",
+                "company": "Intella"
+              }],
+              "noSpeakerLine": ""
+            },
+            {
+              "time": "16.20 - 16.50",
+              "theme": "100% вовлеченность участников на онлайн-тренинге. Как?",
+              "themeLink": "https://hrapiconf.com/materials/2953",
+              "speaker": [{
+                "name": "Светлана Болсуновская",
+                "location": "Россия. Санкт-Петербург",
+                "position": "HRBP",
+                "company": "DT IT Solutions"
+              }],
+              "noSpeakerLine": ""
+            },
+            {
+              "time": "16.50 - 18.00",
+              "theme": "",
+              "themeLink": "",
+              "speaker": [{
+                "name": "",
+                "location": "",
+                "position": "",
+                "company": ""
+              }],
+              "noSpeakerLine": "ФУРШЕТ"
             }
           ]
         }
       ]
-    },{
+    },
+    {
       "tableHeader": "День 2 (29 мая)",
       "tableLines": [
         {
           "tableLIneHeader": "Поток 1",
           "tableLideSchedule": [
             {
-              "time": "9.00 - 10.00",
-              "theme": "Чем живет HR Мир?",
-              "themeLink": "#",
-              "speaker": {
-                "name": "Юлия Тезикова",
-                "location": "Россия. Санкт-Петербург",
-                "position": "HRBP",
-                "company": "Купибилет"
-              },
-              "noSpeakerLine": ""
-            },{
-              "time": "12.00 - 13.00",
+              "time": "9.20 - 10.00",
               "theme": "",
               "themeLink": "",
-              "speaker": {
+              "speaker": [{
                 "name": "",
                 "location": "",
                 "position": "",
                 "company": ""
-              },
-              "noSpeakerLine": "ОБЕД"
+              }],
+              "noSpeakerLine": "Регистрация. Утренний кофе-брейк"
+            },
+            {
+              "time": "10.00 - 10.30",
+              "theme": "Вовлечение новых сотрудников  на удаленке и создание  командного духа",
+              "themeLink": "https://hrapiconf.com/materials/2950",
+              "speaker": [{
+                "name": "Юлия Тезикова",
+                "location": "Россия. Санкт-Петербург",
+                "position": "HRBP",
+                "company": "Купибилет"
+              }],
+              "noSpeakerLine": ""
+            },
+            {
+              "time": "10.40 - 11.10",
+              "theme": "Как создать кастомную методику оценки вовлеченности персонала в IT компании",
+              "themeLink": "https://hrapiconf.com/materials/2938",
+              "speaker": [{
+                "name": "Екатерина Шляпина",
+                "location": "Россия. Пермь",
+                "position": "HR Директор",
+                "company": "ENAZA"
+              }],
+              "noSpeakerLine": ""
+            },
+            {
+              "time": "11.20 - 11.50",
+              "theme": "Зачем развивать горизонтальные связи между сотрудниками и причем здесь митапы",
+              "themeLink": "https://hrapiconf.com/materials/2952",
+              "speaker": [{
+                "name": "Дмитрий Ледяев ",
+                "location": "Беларусь. Минск",
+                "position": "HR/PR Lead ",
+                "company": "SaM Solutions​"
+              },{
+                "name": "Влад Ольховик",
+                "location": "Беларусь. Минск",
+                "position": "BA/PM",
+                "company": "SaM Solutions​"
+              }],
+              "noSpeakerLine": ""
             }
           ]
-        },{
+        },
+        {
           "tableLIneHeader": "Поток 2",
           "tableLideSchedule": [
             {
               "time": "9.00 - 10.00",
-              "theme": "Чем живет HR Мир?",
-              "themeLink": "#",
-              "speaker": {
-                "name": "Юлия Тезикова",
-                "location": "Россия. Санкт-Петербург",
-                "position": "HRBP",
-                "company": "Купибилет"
-              },
-              "noSpeakerLine": ""
-            },{
-              "time": "12.00 - 13.00",
               "theme": "",
               "themeLink": "",
-              "speaker": {
+              "speaker": [{
                 "name": "",
                 "location": "",
                 "position": "",
                 "company": ""
-              },
+              }],
+              "noSpeakerLine": "Регистрация. Утренний кофе-брейк"
+            },
+            {
+              "time": "10.00 - 10.25",
+              "theme": "ОТКРЫТИЕ",
+              "themeLink": "",
+              "speaker": [{
+                "name": "",
+                "location": "",
+                "position": "",
+                "company": ""
+              }],
+              "noSpeakerLine": ""
+            },
+            {
+              "time": "10.30 - 11.10",
+              "theme": "Метрики рекрутмента 80 lvl",
+              "themeLink": "https://hrapiconf.com/materials/2936",
+              "speaker": [{
+                "name": "Ольга Игнатьева",
+                "location": "Spain. Benitachell",
+                "position": "Head of Global Recruitment",
+                "company": "Semrush"
+              }],
+              "noSpeakerLine": ""
+            },
+            {
+              "time": "11.20 - 12.00",
+              "theme": "Автоматизация HR-процессов или как HR-у совмещать в себе роль PM-а",
+              "themeLink": "https://hrapiconf.com/materials/2945",
+              "speaker": [{
+                "name": "Юрий Иванов",
+                "location": "Россия. Ульяновск",
+                "position": "Руководитель группы подбора и адаптации",
+                "company": "СимбирСофт"
+              }],
+              "noSpeakerLine": ""
+            },
+            {
+              "time": "12.00 - 13.00",
+              "theme": "",
+              "themeLink": "",
+              "speaker": [{
+                "name": "",
+                "location": "",
+                "position": "",
+                "company": ""
+              }],
               "noSpeakerLine": "ОБЕД"
             }
           ]
