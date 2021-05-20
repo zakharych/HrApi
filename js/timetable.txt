@@ -23,7 +23,7 @@
             },
             {
               "time": "10.00 - 10.25",
-              "timing": 25,
+              "timing": 30,
               "theme": "",
               "themeLink": "",
               "speaker": [
@@ -38,7 +38,7 @@
             },
             {
               "time": "10.30 - 11.30",
-              "timing": 60,
+              "timing": 70,
               "theme": "Офбординг как часть культуры",
               "themeLink": "https://hrapiconf.com/materials/2948",
               "speaker": [
@@ -53,7 +53,7 @@
             },
             {
               "time": "11.40 - 12.10",
-              "timing": 30,
+              "timing": 40,
               "theme": "Как совместная работа с бизнесом помогает эффективно развивать менеджеров разработки",
               "themeLink": "https://hrapiconf.com/materials/2939",
               "speaker": [
@@ -68,7 +68,7 @@
             },
             {
               "time": "12.20 - 13.10",
-              "timing": 30,
+              "timing": 50,
               "theme": "Адаптация экспатов в Google Warsaw: взгляд со стороны разработчика",
               "themeLink": "https://hrapiconf.com/materials/2949",
               "speaker": [
@@ -98,7 +98,7 @@
             },
             {
               "time": "14.10 - 14.50",
-              "timing": 40,
+              "timing": 50,
               "theme": "Аудит внутренних коммуникаций. Руководство к действию",
               "themeLink": "https://hrapiconf.com/materials/2946",
               "speaker": [
@@ -113,7 +113,7 @@
             },
             {
               "time": "15.00 - 15.40",
-              "timing": 40,
+              "timing": 50,
               "theme": "3 лайфхака для развития менеджеров в IT… и не только!",
               "themeLink": "#",
               "speaker": [
@@ -193,7 +193,7 @@
             },
             {
               "time": "10.00 - 10.25",
-              "timing": 25,
+              "timing": 30,
               "theme": "",
               "themeLink": "",
               "speaker": [
@@ -208,7 +208,7 @@
             },
             {
               "time": "10.30 - 11.10",
-              "timing": 40,
+              "timing": 50,
               "theme": "Метрики рекрутмента 80 lvl",
               "themeLink": "https://hrapiconf.com/materials/2936",
               "speaker": [
@@ -253,7 +253,7 @@
             },
             {
               "time": "12.30 - 13.00",
-              "timing": 30,
+              "timing": 40,
               "theme": "Шишки и кокосы. Рефакторинг нанимающего менеджера",
               "themeLink": "https://hrapiconf.com/materials/2955",
               "speaker": [
@@ -298,7 +298,7 @@
             },
             {
               "time": "15.10 - 16.10",
-              "timing": 60,
+              "timing": 70,
               "theme": "Туда и обратно: почему разработчики возвращаются в Россию",
               "themeLink": "#",
               "speaker": [
@@ -368,7 +368,7 @@
             },
             {
               "time": "10.00 - 10.30",
-              "timing": 30,
+              "timing": 40,
               "theme": "Вовлечение новых сотрудников  на удаленке и создание  командного духа",
               "themeLink": "https://hrapiconf.com/materials/2950",
               "speaker": [
@@ -383,7 +383,7 @@
             },
             {
               "time": "10.40 - 11.10",
-              "timing": 30,
+              "timing": 40,
               "theme": "Как создать кастомную методику оценки вовлеченности персонала в IT компании",
               "themeLink": "https://hrapiconf.com/materials/2938",
               "speaker": [
@@ -398,7 +398,7 @@
             },
             {
               "time": "11.20 - 11.50",
-              "timing": 30,
+              "timing": 40,
               "theme": "Зачем развивать горизонтальные связи между сотрудниками и причем здесь митапы",
               "themeLink": "https://hrapiconf.com/materials/2952",
               "speaker": [
@@ -443,7 +443,7 @@
             },
             {
               "time": "13.30 - 13.50",
-              "timing": 20,
+              "timing": 30,
               "theme": "Подготовка скрам-мастеров: сложности и победы",
               "themeLink": "#",
               "speaker": [
@@ -472,8 +472,8 @@
               "noSpeakerLine": ""
             },
             {
-              "time": "14.00 - 14.40",
-              "timing": 40,
+              "time": "14.40 - 15.10",
+              "timing": 30,
               "theme": "",
               "themeLink": "",
               "speaker": [
@@ -488,7 +488,7 @@
             },
             {
               "time": "15.10 - 15.50",
-              "timing": 40,
+              "timing": 50,
               "theme": "5 основных ограничений молодых руководителя и как им помочь",
               "themeLink": "https://hrapiconf.com/materials/2942",
               "speaker": [
@@ -523,7 +523,7 @@
           "tableLideSchedule": [
             {
               "time": "9.50 - 10.30",
-              "timing": 40,
+              "timing": 30,
               "theme": "",
               "themeLink": "",
               "speaker": [
@@ -538,7 +538,7 @@
             },
             {
               "time": "10.20 - 11.00",
-              "timing": 40,
+              "timing": 50,
               "theme": "Ошибки хайринга, собранные за 35 собеседований",
               "themeLink": "#",
               "speaker": [
@@ -628,7 +628,7 @@
             },
             {
               "time": "14.20 - 15.00",
-              "timing": 40,
+              "timing": 50,
               "theme": "Делай раз, делай два, делай три: как мы организовали внутреннюю DevOps школу",
               "themeLink": "#",
               "speaker": [
@@ -643,7 +643,7 @@
             },
             {
               "time": "15.10 - 15.40",
-              "timing": 30,
+              "timing": 40,
               "theme": "Как создать открытый учебный курс на 1000 человек, используя Agile",
               "themeLink": "https://hrapiconf.com/materials/2947",
               "speaker": [
@@ -658,7 +658,7 @@
             },
             {
               "time": "15.50 - 16.30",
-              "timing": 40,
+              "timing": 50,
               "theme": "Медиация в IT командах или как подружить производителя с интегратором.",
               "themeLink": "#",
               "speaker": [
