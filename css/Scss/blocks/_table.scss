@@ -24,7 +24,12 @@
   text-align: center;
   padding: 5px;
 }
-
+.table__slot-inner {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-around;
+}
 .table__row {
   display: flex;
   flex-direction: column;
@@ -64,13 +69,17 @@
   font-size: 14px;
 }
 .table__theme {
-  flex: 1;
+  // flex: 1;
   padding: 5px;
   align-self: flex-start;
 }
 .table__link {
+  // font-style: italic;
+  font-weight: 600;
+  color: darkslategrey;
+  font-size: 16px;
   &:hover {
-    opacity: 0.8;
+    opacity: 0.7;
     text-decoration: underline;
   }
 }

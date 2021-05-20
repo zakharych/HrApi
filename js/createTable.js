@@ -1,4 +1,5 @@
 const table = document.querySelector(".table");
+const minHeight = 7; //высота миунты слота
 (async () => {
   let DB = await (await fetch("./js/timetable.txt")).json();
   createTable(DB);
@@ -29,6 +30,7 @@ function createTable(element) {
       tableLines.tableLideSchedule.forEach((slot) => {
         const tableRow = document.createElement("div");
         tableRow.className = "table__row";
+        tableRow.style.minHeight = `${minHeight*slot.timing}px`;
         tableInnerTable.append(tableRow);
 
         const time = document.createElement("div");
@@ -36,20 +38,25 @@ function createTable(element) {
         time.innerText = `${slot.time}`;
         tableRow.append(time);
 
+        const slotInner = document.createElement("div");
+        slotInner.className = "table__slot-inner";
+        tableRow.append(slotInner);
+
         if (slot.theme) {
           const theme = document.createElement("a");
           theme.className = "table__item table__theme";
-
           theme.innerText = `${slot.theme}`;
+
           if (slot.themeLink) {
             theme.classList.add("table__link");
             theme.href = `${slot.themeLink}`;
           }
-          tableRow.append(theme);
+
+          slotInner.append(theme);
+
           const speakerContainer = document.createElement("div");
           speakerContainer.className = "table__item table__speaker-container";
-
-          tableRow.append(speakerContainer);
+          slotInner.append(speakerContainer);
 
           slot.speaker.forEach((speaker) => {
             const speakerItem = document.createElement("div");
@@ -80,7 +87,7 @@ function createTable(element) {
           const breaking = document.createElement("div");
           breaking.className = "table__item table__break";
           breaking.innerText = `${slot.noSpeakerLine}`;
-          tableRow.append(breaking);
+          slotInner.append(breaking);
         }
       });
     });
