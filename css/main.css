@@ -2373,11 +2373,17 @@ font-face {
 .table__inner {
   display: grid;
   grid-template-columns: 50% 50%;
+  margin-bottom: 40px;
+}
+
+.table__inner:last-child {
+  margin-bottom: 0;
 }
 
 .table__header {
   grid-column: 1 / end;
   text-align: center;
+  padding: 5px;
   background-color: aliceblue;
   font-size: 18px;
 }
@@ -2393,6 +2399,7 @@ font-face {
 .table__inner-header {
   font-size: 18px;
   text-align: center;
+  padding: 5px;
 }
 
 .table__row {
@@ -2402,6 +2409,10 @@ font-face {
 
 .table__row:nth-child(even) {
   background-color: #c3c3c320;
+}
+
+.table__row:last-child {
+  border-bottom: 1px solid #114490;
 }
 
 .col2 .table__row {
@@ -2439,9 +2450,10 @@ font-face {
 .table__theme {
   flex: 1;
   padding: 5px;
+  align-self: flex-start;
 }
 
-.table__theme:hover {
+.table__link:hover {
   opacity: 0.8;
   text-decoration: underline;
 }
@@ -2469,9 +2481,4 @@ font-face {
 
 .table__speaker-name {
   font-weight: 600;
-}
-
-.table__speaker-name:hover {
-  opacity: 0.8;
-  text-decoration: underline;
 }

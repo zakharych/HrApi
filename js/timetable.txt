@@ -1,19 +1,123 @@
 {
-  "tableOneHeader": "День 1(28 мая)",
-  "tableTwoHeader": "День 2(29 мая)",
-  "tableLineOne": "Поток 1",
-  "tableLineTwo": "Поток 2",
-  "tableOne": [
+  "DayTable": [
     {
-      "time": "9.00 - 10.00",
-      "theme": "Чем живет HR Мир?",
-      "speaker": {
-        "name": "Юлия Тезикова",
-        "location": "Россия. Санкт-Петербург",
-        "position": "HRBP",
-        "company": "Купибилет"
-      },
-      "noSpeakerLine": ""
+      "tableHeader": "День 1 (28 мая)",
+      "tableLines": [
+        {
+          "tableLIneHeader": "Поток 1",
+          "tableLideSchedule": [
+            {
+              "time": "9.00 - 10.00",
+              "theme": "Чем живет HR Мир?",
+              "themeLink": "#",
+              "speaker": {
+                "name": "Юлия Тезикова",
+                "location": "Россия. Санкт-Петербург",
+                "position": "HRBP",
+                "company": "Купибилет"
+              },
+              "noSpeakerLine": ""
+            },{
+              "time": "12.00 - 13.00",
+              "theme": "",
+              "themeLink": "",
+              "speaker": {
+                "name": "",
+                "location": "",
+                "position": "",
+                "company": ""
+              },
+              "noSpeakerLine": "ОБЕД"
+            }
+          ]
+        },{
+          "tableLIneHeader": "Поток 2",
+          "tableLideSchedule": [
+            {
+              "time": "9.00 - 10.00",
+              "theme": "Чем живет HR Мир?",
+              "themeLink": "#",
+              "speaker": {
+                "name": "Юлия Тезикова",
+                "location": "Россия. Санкт-Петербург",
+                "position": "HRBP",
+                "company": "Купибилет"
+              },
+              "noSpeakerLine": ""
+            },{
+              "time": "12.00 - 13.00",
+              "theme": "",
+              "themeLink": "",
+              "speaker": {
+                "name": "",
+                "location": "",
+                "position": "",
+                "company": ""
+              },
+              "noSpeakerLine": "ОБЕД"
+            }
+          ]
+        }
+      ]
+    },{
+      "tableHeader": "День 2 (29 мая)",
+      "tableLines": [
+        {
+          "tableLIneHeader": "Поток 1",
+          "tableLideSchedule": [
+            {
+              "time": "9.00 - 10.00",
+              "theme": "Чем живет HR Мир?",
+              "themeLink": "#",
+              "speaker": {
+                "name": "Юлия Тезикова",
+                "location": "Россия. Санкт-Петербург",
+                "position": "HRBP",
+                "company": "Купибилет"
+              },
+              "noSpeakerLine": ""
+            },{
+              "time": "12.00 - 13.00",
+              "theme": "",
+              "themeLink": "",
+              "speaker": {
+                "name": "",
+                "location": "",
+                "position": "",
+                "company": ""
+              },
+              "noSpeakerLine": "ОБЕД"
+            }
+          ]
+        },{
+          "tableLIneHeader": "Поток 2",
+          "tableLideSchedule": [
+            {
+              "time": "9.00 - 10.00",
+              "theme": "Чем живет HR Мир?",
+              "themeLink": "#",
+              "speaker": {
+                "name": "Юлия Тезикова",
+                "location": "Россия. Санкт-Петербург",
+                "position": "HRBP",
+                "company": "Купибилет"
+              },
+              "noSpeakerLine": ""
+            },{
+              "time": "12.00 - 13.00",
+              "theme": "",
+              "themeLink": "",
+              "speaker": {
+                "name": "",
+                "location": "",
+                "position": "",
+                "company": ""
+              },
+              "noSpeakerLine": "ОБЕД"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
