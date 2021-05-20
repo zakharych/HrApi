@@ -522,7 +522,7 @@
           "tableLIneHeader": "Поток 2",
           "tableLideSchedule": [
             {
-              "time": "9.50 - 10.30",
+              "time": "9.50 - 10.20",
               "timing": 30,
               "theme": "",
               "themeLink": "",
