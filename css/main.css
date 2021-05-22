@@ -2373,7 +2373,11 @@ font-face {
 .table__inner {
   display: grid;
   grid-template-columns: 50% 50%;
+  grid-template-rows: repeat(56, auto);
+  grid-column-gap: 5px;
+  grid-auto-flow: column;
   margin-bottom: 40px;
+  border-bottom: 1px solid #114490;
 }
 
 .table__inner:last-child {
@@ -2416,10 +2420,6 @@ font-face {
 
 .table__row:nth-child(even) {
   background-color: #c3c3c320;
-}
-
-.table__row:last-child {
-  border-bottom: 1px solid #114490;
 }
 
 .col2 .table__row {

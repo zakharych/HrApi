@@ -1,37 +1,60 @@
 const table = document.querySelector(".table");
-const minHeight = 7; //высота миунты слота
+const minHeight = 5; //10 мин высота строки грида
 (async () => {
   let DB = await (await fetch("./js/timetable.txt")).json();
   createTable(DB);
 })();
 
 function createTable(element) {
-  element[`DayTable`].forEach((dayTable) => {
+  let alltime = 0;
+  element[`DayTable`].forEach((dayTable, i) => {
     const tableInner = document.createElement("div");
     tableInner.className = "table__inner";
     table.append(tableInner);
 
     const tableHeader = document.createElement("div");
     tableHeader.className = "table__header";
+    tableHeader.style.gridColumnEnd = "span 2";
     tableHeader.innerText = `${dayTable.tableHeader}`;
     tableInner.append(tableHeader);
 
-    dayTable.tableLines.forEach((tableLines) => {
-      const tableInnerTable = document.createElement("div");
-      tableInnerTable.className = "table__inner-table";
-      tableInner.append(tableInnerTable);
+    dayTable.tableLines.forEach((tableLines, i) => {
 
       const tableInnerHeader = document.createElement("div");
       tableInnerHeader.className = "table__inner-header";
-
       tableInnerHeader.innerText = `${tableLines.tableLIneHeader}`;
-      tableInnerTable.append(tableInnerHeader);
+      tableInner.append(tableInnerHeader);
+      let temAlltime = 0;
+      let line = i;
+      let plug = false;
 
-      tableLines.tableLideSchedule.forEach((slot) => {
+      const firstLineTime =
+        dayTable.tableLines[0].tableLideSchedule[0].time.substring(0, 3);
+      const secondLineTime =
+        dayTable.tableLines[1].tableLideSchedule[0].time.substring(0, 3);
+
+      if (firstLineTime !== secondLineTime) {
+        plugTiming = (secondLineTime - firstLineTime).toFixed(2) * 100;
+        temAlltime += plugTiming;
+        plug = true;
+      }
+
+      tableLines.tableLideSchedule.forEach((slot, i, array) => {
+
+        if (i === 0 && plug === true && line === 1) {
+          console.log(slot);
+          const tableRow = document.createElement("div");
+          tableRow.className = "plug-row";
+          tableRow.style.gridRow = `span ${plugTiming / minHeight}`;
+          tableInner.append(tableRow);
+        }
+        
+        temAlltime += slot.timing;
+
         const tableRow = document.createElement("div");
         tableRow.className = "table__row";
-        tableRow.style.minHeight = `${minHeight*slot.timing}px`;
-        tableInnerTable.append(tableRow);
+        tableRow.style.gridRow = `span ${slot.timing / minHeight}`;
+        tableInner.append(tableRow);
 
         const time = document.createElement("div");
         time.className = "table__item table__time";
@@ -83,6 +106,14 @@ function createTable(element) {
             speakerCompany.innerText = `${speaker["company"]}`;
             speakerItem.append(speakerCompany);
           });
+          if (i === array.length - 1 && plug === true && line === 0) {
+            console.log(slot);
+            const tableRow = document.createElement("div");
+            tableRow.className = "plug-row";
+
+            tableRow.style.gridRow = `span ${plugTiming / minHeight}`;
+            tableInner.append(tableRow);
+          }
         } else {
           const breaking = document.createElement("div");
           breaking.className = "table__item table__break";
@@ -90,6 +121,13 @@ function createTable(element) {
           slotInner.append(breaking);
         }
       });
+      if (temAlltime > alltime) {
+        alltime = temAlltime;
+      }
     });
+    tableInner.style.gridTemplateRows = `repeat(${
+      alltime / minHeight + 2
+    }, auto)`;
+    alltime = 0;
   });
 }

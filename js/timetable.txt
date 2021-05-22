@@ -503,7 +503,7 @@
             },
             {
               "time": "16.00 - 16.40",
-              "timing": 40,
+              "timing": 50,
               "theme": "Как увеличить количество публичных выступлений коллег",
               "themeLink": "https://hrapiconf.com/materials/2943",
               "speaker": [
