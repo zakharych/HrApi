@@ -9,6 +9,7 @@
             {
               "time": "9.00 - 10.00",
               "timing": 60,
+              "format": "multi",
               "theme": "",
               "themeLink": "",
               "speaker": [
@@ -24,6 +25,7 @@
             {
               "time": "10.00 - 10.25",
               "timing": 30,
+              "format": "online",
               "theme": "",
               "themeLink": "",
               "speaker": [
@@ -39,6 +41,7 @@
             {
               "time": "10.30 - 11.30",
               "timing": 70,
+              "format": "online",
               "theme": "Офбординг как часть культуры",
               "themeLink": "https://hrapiconf.com/materials/2948",
               "speaker": [
@@ -54,6 +57,7 @@
             {
               "time": "11.40 - 12.10",
               "timing": 40,
+              "format": "offline",
               "theme": "Как совместная работа с бизнесом помогает эффективно развивать менеджеров разработки",
               "themeLink": "https://hrapiconf.com/materials/2939",
               "speaker": [
@@ -115,7 +119,7 @@
               "time": "15.00 - 15.40",
               "timing": 50,
               "theme": "3 лайфхака для развития менеджеров в IT… и не только!",
-              "themeLink": "#",
+              "themeLink": "https://hrapiconf.com/materials/2957",
               "speaker": [
                 {
                   "name": "Яна Даймонд",
@@ -255,7 +259,7 @@
               "time": "12.30 - 13.00",
               "timing": 40,
               "theme": "Шишки и кокосы. Рефакторинг нанимающего менеджера",
-              "themeLink": "https://hrapiconf.com/materials/2955",
+              "themeLink": "https://hrapiconf.com/materials/2965",
               "speaker": [
                 {
                   "name": "Анастасия Пономарёва",
@@ -300,7 +304,7 @@
               "time": "15.10 - 16.10",
               "timing": 70,
               "theme": "Туда и обратно: почему разработчики возвращаются в Россию",
-              "themeLink": "#",
+              "themeLink": "https://hrapiconf.com/materials/2959",
               "speaker": [
                 {
                   "name": "Никита Курский",
@@ -320,8 +324,8 @@
                 {
                   "name": "Светлана Болсуновская",
                   "location": "Россия. Санкт-Петербург",
-                  "position": "HRBP",
-                  "company": "DT IT Solutions"
+                  "position": "HRBP / Agile Coach, Scrum Master",
+                  "company": "DT IT Solutions / Agilelab"
                 }
               ],
               "noSpeakerLine": ""
@@ -445,7 +449,7 @@
               "time": "13.30 - 13.50",
               "timing": 30,
               "theme": "Подготовка скрам-мастеров: сложности и победы",
-              "themeLink": "#",
+              "themeLink": "https://hrapiconf.com/materials/2945",
               "speaker": [
                 {
                   "name": "Анатолий Иванов",
@@ -472,7 +476,22 @@
               "noSpeakerLine": ""
             },
             {
-              "time": "14.40 - 15.10",
+              "time": "14.50 - 15.30",
+              "timing": 40,
+              "theme": "5 основных ограничений молодых руководителя и как им помочь",
+              "themeLink": "https://hrapiconf.com/materials/2942",
+              "speaker": [
+                {
+                  "name": "Андрей Макаров",
+                  "location": "Россия. Казань",
+                  "position": "Совладелец и директор по счастью",
+                  "company": "Neti"
+                }
+              ],
+              "noSpeakerLine": ""
+            },
+            {
+              "time": "15.30 - 16.00",
               "timing": 30,
               "theme": "",
               "themeLink": "",
@@ -487,21 +506,6 @@
               "noSpeakerLine": "КОФЕ-БРЕЙК"
             },
             {
-              "time": "15.10 - 15.50",
-              "timing": 50,
-              "theme": "5 основных ограничений молодых руководителя и как им помочь",
-              "themeLink": "https://hrapiconf.com/materials/2942",
-              "speaker": [
-                {
-                  "name": "Андрей Макаров",
-                  "location": "Россия. Казань",
-                  "position": "Совладелец и директор по счастью",
-                  "company": "Neti"
-                }
-              ],
-              "noSpeakerLine": ""
-            },
-            {
               "time": "16.00 - 16.40",
               "timing": 50,
               "theme": "Как увеличить количество публичных выступлений коллег",
@@ -512,6 +516,21 @@
                   "location": "Россия. Санкт-Петербург",
                   "position": "Employer Brand Manager",
                   "company": "Selectel"
+                }
+              ],
+              "noSpeakerLine": ""
+            },
+            {
+              "time": "16.50 - 17.10",
+              "timing": 20,
+              "theme": "Рекрутмент в странах APAC. Мои приключения",
+              "themeLink": "https://hrapiconf.com/materials/2966",
+              "speaker": [
+                {
+                  "name": "Фаина Лернер",
+                  "location": "Россия. Санкт-Петербург",
+                  "position": "Director, Talent Acquisition and People Mgt",
+                  "company": "EPAM"
                 }
               ],
               "noSpeakerLine": ""
@@ -540,7 +559,7 @@
               "time": "10.20 - 11.00",
               "timing": 50,
               "theme": "Ошибки хайринга, собранные за 35 собеседований",
-              "themeLink": "#",
+              "themeLink": "https://hrapiconf.com/materials/2962",
               "speaker": [
                 {
                   "name": "Антон Назаров",
@@ -555,7 +574,7 @@
               "time": "11.10 - 11.50",
               "timing": 40,
               "theme": "Коучинговые инструменты в подборе",
-              "themeLink": "#",
+              "themeLink": "https://hrapiconf.com/materials/2960",
               "speaker": [
                 {
                   "name": "Анна Даллакян",
@@ -585,7 +604,7 @@
               "time": "12.20 - 12.50",
               "timing": 30,
               "theme": "Как мы за месяц подготовили и провели IT-конференцию UIC dev",
-              "themeLink": "",
+              "themeLink": "https://hrapiconf.com/materials/2958",
               "speaker": [
                 {
                   "name": "Екатерина Меньшикова",
@@ -630,7 +649,7 @@
               "time": "14.20 - 15.00",
               "timing": 50,
               "theme": "Делай раз, делай два, делай три: как мы организовали внутреннюю DevOps школу",
-              "themeLink": "#",
+              "themeLink": "https://hrapiconf.com/materials/2964",
               "speaker": [
                 {
                   "name": "Алёна Петрова",
@@ -658,30 +677,30 @@
             },
             {
               "time": "15.50 - 16.30",
-              "timing": 50,
-              "theme": "Медиация в IT командах или как подружить производителя с интегратором.",
-              "themeLink": "#",
-              "speaker": [
-                {
-                  "name": "Malika Mamytova",
-                  "location": "Россия. Санкт-Петербург",
-                  "position": "People Partner",
-                  "company": "Quadcode.com"
-                }
-              ],
-              "noSpeakerLine": ""
-            },
-            {
-              "time": "16.40 - 17.20",
               "timing": 40,
               "theme": "Короткие формы текстов. Первый контакт с кандидатом в мессенджерах",
-              "themeLink": "",
+              "themeLink": "https://hrapiconf.com/materials/2956",
               "speaker": [
                 {
                   "name": "Таня Пичева",
                   "location": "Россия. Новосибирск",
                   "position": "HRD",
                   "company": "documentat.io"
+                }
+              ],
+              "noSpeakerLine": ""
+            },
+            {
+              "time": "16.40 - 17.20",
+              "timing": 50,
+              "theme": "Медиация в IT командах или как подружить производителя с интегратором.",
+              "themeLink": "https://hrapiconf.com/materials/2963",
+              "speaker": [
+                {
+                  "name": "Малика Мамытова",
+                  "location": "Россия. Санкт-Петербург",
+                  "position": "People Partner",
+                  "company": "Quadcode.com"
                 }
               ],
               "noSpeakerLine": ""

@@ -19,7 +19,6 @@ function createTable(element) {
     tableInner.append(tableHeader);
 
     dayTable.tableLines.forEach((tableLines, i) => {
-
       const tableInnerHeader = document.createElement("div");
       tableInnerHeader.className = "table__inner-header";
       tableInnerHeader.innerText = `${tableLines.tableLIneHeader}`;
@@ -40,15 +39,13 @@ function createTable(element) {
       }
 
       tableLines.tableLideSchedule.forEach((slot, i, array) => {
-
         if (i === 0 && plug === true && line === 1) {
-          console.log(slot);
           const tableRow = document.createElement("div");
           tableRow.className = "plug-row";
           tableRow.style.gridRow = `span ${plugTiming / minHeight}`;
           tableInner.append(tableRow);
         }
-        
+
         temAlltime += slot.timing;
 
         const tableRow = document.createElement("div");
@@ -56,10 +53,34 @@ function createTable(element) {
         tableRow.style.gridRow = `span ${slot.timing / minHeight}`;
         tableInner.append(tableRow);
 
+        const timeWrapper = document.createElement("div");
+        timeWrapper.className = "table__item table__time";
+        tableRow.append(timeWrapper);
+
         const time = document.createElement("div");
-        time.className = "table__item table__time";
+        time.className = "table__time-inner";
         time.innerText = `${slot.time}`;
-        tableRow.append(time);
+        timeWrapper.append(time);
+
+        if (slot.format) {
+          const onair = document.createElement("div");
+          onair.className = "table__time-onair";
+          if (slot.format === "online" || slot.format === "multi") {
+            onair.classList.add("table__time-onair--online");
+            onair.title = "online";
+          } else if (slot.format === "offline") {
+            onair.classList.add("table__time-onair--offline");
+            onair.title = "offline";
+          }
+          timeWrapper.append(onair);
+
+          if (slot.format === "multi") {
+            onairClone = onair.cloneNode();
+            onairClone.classList.add("table__time-onair--offline");
+            onairClone.title = "offline";
+            timeWrapper.append(onairClone);
+          }
+        }
 
         const slotInner = document.createElement("div");
         slotInner.className = "table__slot-inner";
@@ -107,7 +128,6 @@ function createTable(element) {
             speakerItem.append(speakerCompany);
           });
           if (i === array.length - 1 && plug === true && line === 0) {
-            console.log(slot);
             const tableRow = document.createElement("div");
             tableRow.className = "plug-row";
 
